@@ -1,0 +1,47 @@
+# React
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+#---------------------------------------|
+# Pytohn
+# Байт-код, оптимизированные / DLL-файлы
+__pycache__/
+*.py[cod]
+
+# Файлы конфигурации для venv
+.venv/
+.env
+
+# Файлы дистрибутивов и артефакты упаковки
+dist/
+*.egg-info/
+
+# Файлы покрытия, кэши и прочие ненужные файлы
+.coverage
+*.py,cover
+.cache/
+
+# Файлы *.py,cover не несут никакого смысла
+*.py, cover
+
+# Контрольные точки в Jupyter notebook лучше оставить в стороне
+.ipynb_checkpoints
